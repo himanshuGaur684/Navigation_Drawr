@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/firstFragment2">
+
+    <fragment
+        android:id="@+id/firstFragment2"
+        android:name="gaur.himanshu.august.navigationdrawrtablayout.fragments.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment2_to_secFragment2"
+            app:destination="@id/secFragment2" />
+        <action
+            android:id="@+id/action_firstFragment2_to_thirdFragment2"
+            app:destination="@id/thirdFragment2" />
+        <action
+            android:id="@+id/action_firstFragment2_to_fourthFragment2"
+            app:destination="@id/fourthFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/secFragment2"
+        android:name="gaur.himanshu.august.navigationdrawrtablayout.fragments.SecFragment"
+        android:label="fragment_sec"
+        tools:layout="@layout/fragment_sec" >
+        <action
+            android:id="@+id/action_secFragment2_to_firstFragment2"
+            app:destination="@id/firstFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragment2"
+        android:name="gaur.himanshu.august.navigationdrawrtablayout.fragments.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/action_thirdFragment2_to_firstFragment2"
+            app:destination="@id/firstFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourthFragment2"
+        android:name="gaur.himanshu.august.navigationdrawrtablayout.fragments.FourthFragment"
+        android:label="fragment_fourth"
+        tools:layout="@layout/fragment_fourth" >
+        <action
+            android:id="@+id/action_fourthFragment2_to_firstFragment2"
+            app:destination="@id/firstFragment2" />
+    </fragment>
+</navigation>
