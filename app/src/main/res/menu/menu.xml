@@ -4,15 +4,19 @@
     <group>
         <item
             android:id="@+id/firstFragment2"
-            android:title="First Frag" />
+            android:title="First Frag"
+            android:icon="@drawable/ic_one"/>
         <item
             android:id="@+id/secFragment2"
-            android:title="Second Fragment" />
+            android:title="Second Fragment"
+            android:icon="@drawable/ic_sec"/>
         <item
             android:id="@+id/thirdFragment2"
-            android:title="Third Fragment" />
+            android:title="Third Fragment"
+            android:icon="@drawable/ic_third"/>
         <item
             android:id="@+id/fourthFragment2"
-            android:title="Fourth Frgament" />
+            android:title="Fourth Frgament"
+            android:icon="@drawable/ic_fourth_2"/>
     </group>
 </menu>

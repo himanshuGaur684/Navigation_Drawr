@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
 
         navigationView.setupWithNavController(navController)
 
+       navigationView.inflateHeaderView(R.layout.header_layout)
+
         setupActionBarWithNavController(navController, drawrLayout)
 
     }
